@@ -1,13 +1,17 @@
 import java.util.Scanner;
 
 public class Mahasiswa02 {
-    class Mahasiswa {
-        private String nim;
-        private String nama;
-        private String kelas;
-        private double ipk;
+        public String nim;
+        public String nama;
+        public String kelas;
+        public double ipk;
     
-        public Mahasiswa(String nim, String nama, String kelas, double ipk) {
+        public Mahasiswa02 (){
+
+        }
+        
+    
+        public Mahasiswa02(String nim, String nama, String kelas, double ipk) {
             this.nim = nim;
             this.nama = nama;
             this.kelas = kelas;
@@ -42,5 +46,5 @@ public class Mahasiswa02 {
                 return "Kurang";
             }
         }
-    }
+    
 }
