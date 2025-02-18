@@ -10,11 +10,13 @@ public class MahasiswaMain02 {
         mhs1.ipk = 3.55;
 
         mhs1.tampilkanInformasi(); // Memanggil method tampilkanInformasi()
-
         mhs1.ubahKelas("SIB 1G"); // Memanggil method ubahKelas()
         mhs1.updateIpk(3.60); // Memanggil method updateIpk()
-
         mhs1.tampilkanInformasi(); // Memanggil method tampilkanInformasi() lagi
+
+        Mahasiswa02 mhs2 = new Mahasiswa02("2141720160","Annisa Nabila", "TI 2L", 3.25); 
+        mhs2.updateIpk (3.30); 
+        mhs2.tampilkanInformasi();
 
     }
 }
